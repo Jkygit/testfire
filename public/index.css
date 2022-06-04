@@ -1,0 +1,26 @@
+*{margin: 0;
+padding: 0;}
+.one{
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5%;
+}
+.two{
+    background-color: red;
+    margin: 20px;
+    /* padding: 20px; */
+    padding-top: 30px;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+}
+.two{animation: animu 5s ease 0s infinite;}
+
+@keyframes animu {
+    0%{}
+    100%{
+        transform: translate(100px);
+        background-color: blue;}
+}
